@@ -1,0 +1,16 @@
+%quotes{
+  font-style:italic;
+  font-weight:normal;
+  color: black;
+  font-size: 16px;
+  justify-content: flex-end;
+  padding: 10px;
+}
+.Professional{
+  @extend %quotes;
+  background-color: khaki;
+}
+.Educational{
+  @extend %quotes;
+  background-color: yellow;
+}

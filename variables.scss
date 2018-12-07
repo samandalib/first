@@ -1,0 +1,98 @@
+$base_color: #0099cc;
+$Show_font_color: white;
+$title_size: 24px;
+$tophead_size: 34px;
+$dscrp_size: 20px;
+$flex_color: gray;
+$sm_size: 14px;
+
+
+#tophead {
+  font-size: $tophead_size;
+  color:$Show_font_color;
+  background-color: $base_color;
+}
+
+#intro {
+  font-size:$title_size;
+}
+
+#table {
+        th, td {
+          font-size: $dscrp_size;
+        }
+        th{
+          background-color: $base_color;
+          color: $Show_font_color;
+        }
+}
+
+h1{
+  color:  $Show_font_color;
+  background-color: $base_color;
+}
+
+.sub-head{
+  color: $Show_font_color;
+  font-size: $tophead_size;
+  background-color: $base_color;
+}
+
+#top {
+  font-size: $tophead_size;
+}
+
+#top_dsc{
+  font-size: $dscrp_size;
+}
+
+.title {
+  font-size:$title_size;
+}
+
+.empl_type {
+  font-size: $sm_size;
+  color: $flex_color;
+}
+
+.work_loc {
+  font-size: $sm_size;
+  color: $flex_color;
+}
+
+.posn_dscrp {
+  font-size:$dscrp_size;
+  color: $Show_font_color;
+}
+
+.more_info {
+  font-size:$dscrp_size;
+  color: $Show_font_color;
+}
+
+.container>div {
+    background-color: $flex_color;
+}
+
+.container1 > div {
+    background-color: $base_color;
+    color:  $Show_font_color;
+}
+
+.home {
+  color: $Show_font_color;
+  font-size: $sm_size;
+}
+
+ol  li {
+  font-size: $dscrp_size;
+  color: $Show_font_color;
+}
+
+ol>li {
+  background-color: $flex_color;
+}
+
+.linkcolor{
+  color: $Show_font_color;
+}
