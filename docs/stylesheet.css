@@ -1,0 +1,382 @@
+#tophead {
+  text-align: center;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  margin-bottom: 10px;
+}
+#intro {
+  font-style:normal;
+  font-weight: normal;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  text-align: justify;
+  align: middle;
+}
+
+#table {
+        border-collapse: collapse;
+      }
+        th, td {
+          border: 1px solid black;
+          padding: 20px;
+          text-align:center;
+        }
+h1{
+  text-align: center;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+.sub-head{
+  font-family:century;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-left: 0;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+#top {
+  font-style:oblique;
+  font-family: sans-serif;
+}
+
+#top_dsc{
+  font-style: normal;
+  font-family:century;
+  color: "black";
+  align: center;
+  margin-left: 5%;
+}
+
+.title {
+  font-style: normal;
+  font-weight: bold;
+  color: "darkgray";
+  margin-left: 5%;
+  margin-top: 10%;
+}
+
+.empl_type {
+  font-style: italic;
+  margin-left: 5%;
+}
+
+.work_loc {
+  font-style: italic;
+}
+
+.posn_dscrp {
+  font-style: normal;
+  font-weight: bold;
+}
+
+.more_info {
+  font-style:italic;
+  font-weight: normal;
+}
+
+.photo{
+  align-content:bottom;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container>div {
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-top: 5%;
+    padding: 20px;
+    width: auto;
+}
+
+.col-sm{
+  width:auto;
+}
+.container1 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container1 > div {
+    margin: 30px;
+    padding: 20px;
+    width: 25%;
+    align:middle;
+    margin-left: 5%;
+}
+
+.home {
+  text-align:  left;
+  font-style: normal;
+  font-weight: lighter;
+}
+
+ ol>li {
+   margin-top: 10px;
+   margin-bottom: 10px;
+   margin-left: 20%;
+   margin-right: 20%;
+   padding: 8px;
+   color: #ffffff;
+ }
+ .linkcolor{
+   background-color:#33b5e5;
+ }
+
+ button{
+   width: 200px;
+   height: 50px;
+   background-color: #0099cc;
+   font-size: 16px;
+   color: white;
+   font-style: normal;
+   font-family: sans-serif;
+   border:none;
+   margin: 4px 2px;
+ }
+ button:hover{
+   background-color: maroon;
+ }
+#top_bottons{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: auto;
+  margin-left: 30%;
+  border-radius: 10px;
+}
+#submit {
+    border: 0;
+    line-height: 2.5;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    border-radius: 10px;
+    background-color: #0099cc;
+    margin-top: 40px;
+    margin-bottom: 20px;
+
+}
+
+#submit:hover {
+    background-color: rgba(255, 0, 0, 1);
+}
+
+#submit:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+                inset 2px 2px 3px rgba(0, 0, 0, .6);
+}
+div.form-example> input {
+    display: table-row;
+    align:center;
+    width:100%;
+}
+div.gselection{
+  display: table-row;
+  align:center;
+}
+label, input {
+    display: table-cell;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    font-size: 18px;
+}
+option{
+    color:black;
+    font-size: 18px;
+}
+.selection-2{
+    font-size: 18px
+}
+label.form_field {
+    padding-right: 10px;
+    color:white;
+}
+label.radio, input.radio{
+    display: table-row;
+}
+input[type=number]{
+  background-color: #DDDDDD;
+  color:black;
+}
+input[type=text]{
+  color:black;
+}
+.form-group{
+  width: 30%;
+  align:center;
+}
+a.linkcolor::after{
+  content : "\24B8 ";
+}
+@media screen and (max-width: 800px) {
+  div#home_head{
+    font-size: 28px;
+  }
+  div#intro {
+    font-size: 12px;
+    width:90%;
+  }
+
+  ul ol{
+    font-size: 10px;
+    width:100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  ol  li {
+    font-weight: normal;
+    font-size: 14px;
+    color: white;
+    margin-left: 0;
+  }
+  ol>li {
+    margin-bottom: 5px;
+    margin-left: 0%;
+    margin-right: 5%;
+    padding: 4px;
+    background-color: gray;
+    color: #ffffff;
+    font-size: 16px;
+  }
+  div#table{
+    width: 80%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+    th{
+    background-color: gray;
+          }
+  div.sub-head{
+    font-size: 18px;
+    background-color: gray;
+  }
+  td,th{
+    font-size: 12px;
+  }
+  div#top_bottons{
+    font-size: 16px;
+    width:98%;
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+  }
+  img#nyc{
+    width: 100%;
+  }
+  .home{
+    font-size: 12px;
+  }
+  div#prof_head{
+    font-size: 14px;
+  }
+  .title{
+    font-size: 12px;
+    line-height: 50%;
+    margin-left: 5px;
+
+  }
+  .empl_type, .work_loc{
+    font-size: 12px;
+    margin-left: 5px;
+  }
+  #top_dsc{
+    font-size: 14px;
+    margin-left: 5px;
+  }
+  .posn_dscrp{
+    font-size: 16px;
+  }
+  .more_info{
+    font-size: 12px;
+    margin-bottom: 5px;
+  }
+  .container >div{
+      background-color: gray;
+      margin: 5px;
+      padding: 20px;
+      width: 100%;
+    }
+  .container1 > div {
+      background-color: gray;
+      color: white;
+      margin: 5px;
+      padding: 10px;
+      width: 95%;
+      align:middle;
+    }
+  #tophead {
+    font-size: 24px;
+    color:white;
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background-color: #0099cc;
+  }
+  #submit {
+      border: 0;
+      line-height: 2.5;
+      padding: 0 20px;
+      font-size: 1rem;
+      text-align: center;
+      color: #fff;
+      border-radius: 5px;
+      background-color: #0099cc;
+  }
+  .form-group{
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 100px;
+    align:center;
+  }
+  button{
+    width: 100%;
+    background-color: #0099cc;
+    font-size: 14px;
+    color: white;
+    font-style: normal;
+    font-family: sans-serif;
+    border:none;
+    margin-left: 10%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  div.form-example> input {
+      display:flex;
+      align:center;
+      width:100%;
+  }
+  div.gselection{
+    display: flex;
+    align:center;
+  }
+  label, input {
+      display: flex;
+      margin-bottom: 15px;
+      margin-top: 15px;
+      font-size: 14px;
+  }
+  option{
+      color:black;
+      font-size: 18px;
+  }
+  label.form_field {
+      padding-right: 5px;
+      color:white;
+  }
+  label.radio, input.radio{
+      display: flex;
+  }
+  .selection-2{
+      font-size: 14px

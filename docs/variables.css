@@ -1,0 +1,70 @@
+#tophead {
+  font-size: 34px;
+  color: white;
+  background-color: #0099cc; }
+
+#intro {
+  font-size: 24px; }
+
+#table th, #table td {
+  font-size: 20px; }
+#table th {
+  background-color: #0099cc;
+  color: white; }
+
+h1 {
+  color: white;
+  background-color: #0099cc; }
+
+.sub-head {
+  color: white;
+  font-size: 34px;
+  background-color: #0099cc; }
+
+#top {
+  font-size: 34px; }
+
+#top_dsc {
+  font-size: 20px; }
+
+.title {
+  font-size: 24px; }
+
+.empl_type {
+  font-size: 14px;
+  color: gray; }
+
+.work_loc {
+  font-size: 14px;
+  color: gray; }
+
+.posn_dscrp {
+  font-size: 20px;
+  color: white; }
+
+.more_info {
+  font-size: 20px;
+  color: white; }
+
+.container > div {
+  background-color: gray; }
+
+.container1 > div {
+  background-color: #0099cc;
+  color: white; }
+
+.home {
+  color: white;
+  font-size: 14px; }
+
+ol li {
+  font-size: 20px;
+  color: white; }
+
+ol > li {
+  background-color: gray; }
+
+.linkcolor {
+  color: white; }
+
+/*# sourceMappingURL=variables.css.map */
